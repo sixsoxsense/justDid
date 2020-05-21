@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="과제 ㅠ" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1alBmarHT0hMjY6Baefv34TJwXq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dudwn\IdeaProjects\justDid\네트워크과제" />
+      <recent name="C:\Users\dudwn\IdeaProjects\justDid\.idea" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.search_solution">
+    <configuration name="DES" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/정보보호론과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/정보보호론과제/DES.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ForProgramers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그냥놀기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그냥놀기/ForProgramers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algo_sort_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘과제/algo_sort_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="search_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘과제/search_solution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.search_solution" />
+        <item itemvalue="Python.DES" />
+        <item itemvalue="Python.ForProgramers" />
+        <item itemvalue="Python.algo_sort_solution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\dudwn\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="" />
+      <created>1587300459737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587300459737</updated>
+      <workItem from="1587300461322" duration="1601000" />
+      <workItem from="1587302238824" duration="231000" />
+      <workItem from="1587302552792" duration="1574000" />
+      <workItem from="1587305040480" duration="1521000" />
+      <workItem from="1587345730692" duration="3983000" />
+      <workItem from="1587350115383" duration="1211000" />
+      <workItem from="1587361999654" duration="985000" />
+      <workItem from="1587385677793" duration="510000" />
+      <workItem from="1587464655292" duration="16923000" />
+      <workItem from="1587483200768" duration="410000" />
+      <workItem from="1587514466012" duration="6582000" />
+      <workItem from="1587521567952" duration="5550000" />
+      <workItem from="1587533689287" duration="1391000" />
+      <workItem from="1587546537445" duration="5611000" />
+      <workItem from="1587608560278" duration="5829000" />
+      <workItem from="1587643630467" duration="4402000" />
+      <workItem from="1587794884180" duration="340000" />
+      <workItem from="1587864465767" duration="62000" />
+      <workItem from="1589982276229" duration="157000" />
+      <workItem from="1589982445212" duration="1794000" />
+      <workItem from="1590029842782" duration="2035000" />
+      <workItem from="1590031912539" duration="99000" />
+      <workItem from="1590032052312" duration="129000" />
+      <workItem from="1590032231267" duration="109000" />
+    </task>
+    <task id="LOCAL-00001" summary="과제1">
+      <created>1587301026710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587301026710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="md업로드">
+      <created>1587301298450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587301298450</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1587301452754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587301452754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1">
+      <created>1587301645956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587301645956</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1">
+      <created>1587302650371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587302650371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="202004192228">
+      <created>1587302917957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587302917957</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1">
+      <created>1587303082615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587303082615</updated>
+    </task>
+    <task id="LOCAL-00008" summary="성공?">
+      <created>1587303394599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1587303394599</updated>
+    </task>
+    <task id="LOCAL-00009" summary="성공?2트">
+      <created>1587303528807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1587303528807</updated>
+    </task>
+    <task id="LOCAL-00010" summary="과제 ㅠ">
+      <created>1587304037937</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587304037937</updated>
+    </task>
+    <task id="LOCAL-00011" summary="되냐?">
+      <created>1587304081105</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587304081105</updated>
+    </task>
+    <task id="LOCAL-00012" summary="되니깐올리지~ㅅㅅ">
+      <created>1587304116912</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587304116912</updated>
+    </task>
+    <task id="LOCAL-00013" summary="수정">
+      <created>1587306083340</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306083340</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1">
+      <created>1587306519279</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587306519279</updated>
+    </task>
+    <task id="LOCAL-00015" summary="끝">
+      <created>1587349700457</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587349700457</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="과제1" />
+    <MESSAGE value="md업로드" />
+    <MESSAGE value="202004192228" />
+    <MESSAGE value="성공?" />
+    <MESSAGE value="성공?2트" />
+    <MESSAGE value="과제 ㅠ" />
+    <MESSAGE value="되냐?" />
+    <MESSAGE value="되니깐올리지~ㅅㅅ" />
+    <MESSAGE value="수정" />
+    <MESSAGE value="1" />
+    <MESSAGE value="끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="끝" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="869" y="94" key="#Project_Structure" timestamp="1587300901081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="869" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587300901081" />
+    <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590030426502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590030426502" />
+    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1587349699931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587349699931" />
+    <state x="874" y="100" width="876" height="847" key="DiffContextDialog" timestamp="1587306558560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="874" y="100" width="876" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587306558560" />
+    <state x="1169" y="275" width="439" height="490" key="FileChooserDialogImpl" timestamp="1590031963921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1169" y="275" width="439" height="490" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590031963921" />
+    <state x="1159" y="441" key="Github.CreateGistDialog" timestamp="1590031695299">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1159" y="441" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031695299" />
+    <state x="1216" y="419" key="Github.ShareDialog" timestamp="1590031873464">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1216" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031873464" />
+    <state width="1116" height="175" key="GridCell.Tab.0.bottom" timestamp="1590031878154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1116" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590031878154" />
+    <state width="1116" height="175" key="GridCell.Tab.0.center" timestamp="1590031878154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1116" height="175" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590031878154" />
+    <state width="1116" height="175" key="GridCell.Tab.0.left" timestamp="1590031878153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1116" height="175" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590031878153" />
+    <state width="1116" height="175" key="GridCell.Tab.0.right" timestamp="1590031878154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1116" height="175" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590031878154" />
+    <state x="629" y="282" key="RollbackChangesDialog" timestamp="1587304048548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="282" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587304048548" />
+    <state x="808" y="155" key="SettingsEditor" timestamp="1590032339122">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590032339122" />
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1587349704140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587349704140" />
+    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590031232672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031232672" />
+    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590031232672">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031232672" />
+    <state x="1117" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587481965088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1117" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587481965088" />
+    <state x="1089" y="255" width="584" height="532" key="find.popup" timestamp="1587300656749">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1089" y="255" width="584" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587300656749" />
+    <state x="1033" y="310" key="git4idea.merge.GitPullDialog" timestamp="1587467673104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587467673104" />
+    <state x="309" y="117" key="new project wizard" timestamp="1587864528163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="309" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587864528163" />
+    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1587522769873">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587522769873" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1590030030388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1590030030388" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/justDid$algo_sort_solution.coverage" NAME="algo_sort_solution Coverage Results" MODIFIED="1587349630519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
+    <SUITE FILE_PATH="coverage/justDid$DES.coverage" NAME="DES Coverage Results" MODIFIED="1589982468912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/정보보호론과제" />
+    <SUITE FILE_PATH="coverage/justDid$search_solution.coverage" NAME="search_solution Coverage Results" MODIFIED="1590029911133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
+    <SUITE FILE_PATH="coverage/justDid$ForProgramers.coverage" NAME="ForProgramers Coverage Results" MODIFIED="1587647267696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/그냥놀기" />
+  </component>
+</project>
