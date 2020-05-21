@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="과제 ㅠ" />
+    <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="after share">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -172,7 +174,8 @@
       <workItem from="1590029842782" duration="2035000" />
       <workItem from="1590031912539" duration="99000" />
       <workItem from="1590032052312" duration="129000" />
-      <workItem from="1590032231267" duration="109000" />
+      <workItem from="1590032231267" duration="322000" />
+      <workItem from="1590032764893" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="과제1">
       <created>1587301026710</created>
@@ -279,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587349700457</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="after share">
+      <created>1590032498498</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590032498498</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +307,8 @@
     <MESSAGE value="수정" />
     <MESSAGE value="1" />
     <MESSAGE value="끝" />
-    <option name="LAST_COMMIT_MESSAGE" value="끝" />
+    <MESSAGE value="after share" />
+    <option name="LAST_COMMIT_MESSAGE" value="after share" />
   </component>
   <component name="WindowStateProjectService">
     <state x="869" y="94" key="#Project_Structure" timestamp="1587300901081">
@@ -308,10 +319,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590030426502" />
-    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1587349699931">
+    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1590032544521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587349699931" />
+    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590032544521" />
     <state x="874" y="100" width="876" height="847" key="DiffContextDialog" timestamp="1587306558560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -324,10 +335,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1159" y="441" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031695299" />
-    <state x="1216" y="419" key="Github.ShareDialog" timestamp="1590031873464">
+    <state x="1216" y="419" key="Github.ShareDialog" timestamp="1590032432344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1216" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031873464" />
+    <state x="1216" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590032432344" />
+    <state x="1151" y="226" key="Github.UntrackedFilesDialog" timestamp="1590032437510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1151" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590032437510" />
     <state width="1116" height="175" key="GridCell.Tab.0.bottom" timestamp="1590031878154">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -348,14 +363,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="629" y="282" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587304048548" />
-    <state x="808" y="155" key="SettingsEditor" timestamp="1590032339122">
+    <state x="808" y="155" key="SettingsEditor" timestamp="1590032778753">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590032339122" />
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1587349704140">
+    <state x="808" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590032778753" />
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590032505733">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587349704140" />
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590032505733" />
     <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590031232672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
