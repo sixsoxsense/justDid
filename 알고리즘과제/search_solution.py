@@ -379,7 +379,7 @@ class RedBlackTree():
         self.__print_helper(self.root, "", True)
 
 
-class DoubleHashing:
+class doubleHashing():
     def __init__(self, size):
         self.M = size
         self.a = [None for x in range(size + 1)]
@@ -399,6 +399,7 @@ class DoubleHashing:
                 self.a[i] = key
                 self.d[i] = data
                 self.N += 1
+                return
             if self.a[i] == key:
                 self.d[i] = data
                 return
@@ -407,38 +408,63 @@ class DoubleHashing:
             if self.N > self.M:
                 break
 
-    def get(self, key):
+    def print_table(self):
+        for i in range(self.M):
+            print('{:4}'.format(str(i)), "", end="")
+        print()
+        for i in range(self.M):
+            print('{:4}'.format(str(self.d[i])), "", end="")
+        print()
+
+
+class linearProbing():
+    def __init__(self, size):
+        self.M = size
+        self.a = [None for x in range(size + 1)]
+        self.d = [None for x in range(size + 1)]
+
+    def hash(self, key):
+        return key % self.M
+
+    def put(self, key, data):
         initial_position = self.hash(key)
         i = initial_position
-        d = 7 - (key % 7)
         j = 0
-        while self.a[i] != None:
+        while True:
+            if self.a[i] == None:
+                self.a[i] = key
+                self.d[i] = data
+                return
             if self.a[i] == key:
-                return self.d[i]
+                self.d[i] = data
+                return
             j += 1
-            i = (initial_position + j * d) % self.M
-        return None
+            i = (initial_position + j) % self.M
+            if i == initial_position:
+                break
 
     def print_table(self):
         for i in range(self.M):
             print('{:4}'.format(str(i)), "", end="")
         print()
         for i in range(self.M):
-            print('{:4}'.format(str(self.a[i])), "", end="")
+            print('{:4}'.format(str(self.d[i])), "", end="")
         print()
 
 
 if __name__ == '__main__':
-    bst = BinarySearchTree()
-    rbt = RedBlackTree()
     print("######이진트리######################")
+    bst = BinarySearchTree()
     for i in iterable.keys():
         bst.insert(i, iterable[i])
     bst.print_tree()
+
     print("######레드블랙트리#####################")
+    rbt = RedBlackTree()
     for i in iterable.keys():
         rbt.insert(i)
     rbt.print_tree()
+
     print("######해시코드#######################")
     hashcode = 0
     hashcodeTable = []
@@ -448,11 +474,20 @@ if __name__ == '__main__':
         hashcodeTable.append([hashcode, i])
         hashcode = 0
     print(hashcodeTable)
+
     print("######이중해싱#######################")
-    hashtable = DoubleHashing(15)
+    hashtable = doubleHashing(15)
     for i in hashcodeTable:
         hashtable.put(i[0], i[1])
     hashtable.print_table()
+
+    print("######선형조사#######################")
+    M=15
+    linearProbing = linearProbing(M)
+    for i in hashcodeTable:
+        linearProbing.put(i[0], i[1])
+    linearProbing.print_table()
+
     print("######txt입력받은뒤 출력################")
     f = open("CARRIERS.txt", encoding="utf-8")
     fileRBT = RedBlackTree()
