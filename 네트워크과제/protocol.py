@@ -107,10 +107,7 @@ def ARP(String):
 
 def cutFrame(String):
     eType = ETHERNET(String[:28])
-    if eType == "0800":
-        '''
-        ip인경우 
-        '''
+    if eType == "0800": #IP인경우
         protocol = IP(String[28:])
         if protocol == "06":
             TCP(String[68:])
@@ -120,10 +117,7 @@ def cutFrame(String):
             UDP(String[68:])
         else:
             print("IP인경우 오류")
-    elif eType == "0806":
-        '''
-        arp인경우
-        '''
+    elif eType == "0806": #arp인경우
         ARP(String[28:])
     else:
         print("입력프레임오류")

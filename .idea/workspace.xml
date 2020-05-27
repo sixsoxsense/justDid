@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/네트워크과제/protocol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/알고리즘과제/search_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘과제/search_solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/네트워크과제/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/네트워크과제/protocol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +208,7 @@
       <workItem from="1590077676244" duration="11000" />
       <workItem from="1590366651579" duration="762000" />
       <workItem from="1590566157066" duration="2516000" />
-      <workItem from="1590580432294" duration="8723000" />
+      <workItem from="1590580432294" duration="8825000" />
     </task>
     <task id="LOCAL-00001" summary="과제1">
       <created>1587301026710</created>
@@ -344,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590076967069</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="20200527">
+      <created>1590589189560</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590589189561</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +369,8 @@
     <MESSAGE value="끝" />
     <MESSAGE value="after share" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="20200527" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200527" />
   </component>
   <component name="WindowStateProjectService">
     <state x="869" y="94" key="#Project_Structure" timestamp="1587300901081">
@@ -374,10 +381,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590030426502" />
-    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1590076966719">
+    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1590589189101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590076966719" />
+    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589189101" />
     <state x="874" y="100" width="876" height="847" key="DiffContextDialog" timestamp="1587306558560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -422,10 +429,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590032859373" />
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590076972766">
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590589195981">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590076972766" />
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589195981" />
     <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590031232672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
