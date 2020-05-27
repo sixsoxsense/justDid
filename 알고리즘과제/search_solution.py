@@ -492,7 +492,7 @@ if __name__ == '__main__':
     f = open("CARRIERS.txt", encoding="utf-8")
     fileRBT = RedBlackTree()
     reads = f.readlines()
-    for read in reads[:5]:
+    for read in reads:
         fileRBT.insert(read[:3])
     fileRBT.print_tree()
     f.close()
