@@ -1,18 +1,15 @@
 '''
-ethernet format
-destinationAddress, sourceAddress, Type, Data
-일단
-입력값 2개(1바이트)씩 나눠서 6바이트 6바이트 로 도착지,출발지
-나누고 그다음 2바이트로 뭔지 판단 하게해서
-이더넷 타입까지 출력시키고
-ip, tcp,udp면 그리 출력하고
-arp면 arp 출력하게 한뒤
-각 ip, tcp arp 함수별로 내부에 타입들이 뭔뜻하게하는지 뽑아내면 되나...?
-2개당 1바이트
+항목별 여러타입있는 경우 if문을 사용하지않고 딕셔너리를 이용해 작성하였습니다.
+작년 체크썸과제랑 다르게 단순 출력수준의 문제이기에 기본 문법정도만 사용하였습니다.
 '''
 String = ""
-serviceTypeDict = {"00": "nomal", "01": "accept", "10": "accept", "11": "confused"}
-protocolDict = {"01": "ICMP", "06": "TCP", "11": "UDP"}
+serviceTypeDict = {"00": "nomal",
+                   "01": "accept",
+                   "10": "accept",
+                   "11": "confused"}
+protocolDict = {"01": "ICMP",
+                "06": "TCP",
+                "11": "UDP"}
 flagsDict = {
     "0": " reversed : 0,\n Don’t Fragment? : 0 / fragment,\n More? : 0 / No more fragments",
     "2": " reversed : 0,\n Don’t Fragment? : 0 / fragment,\n More? : 1 / more fragments",
@@ -36,6 +33,73 @@ synDict = {"0": "0 / Not Connection Setup",
 finDict = {"0": "0 / Not Connection Release",
            "1": "1 / Connection Release"
            }
+tcpPortDict = {"1": "well-known port: TCPMUX",
+               "7": "well-known port: ECHO",
+               "9": "well-known port: DISCARD",
+               "13": "well-known port: DAYTIME",
+               "17": "well-known port: QOTD",
+               "19": "well-known port: CHARGEN",
+               "20": "well-known port: FTP 데이터포트",
+               "21": "well-known port: FTP 제어포트",
+               "22": "well-known port: SSH",
+               "23": "well-known port: 텔넷 프로토콜",
+               "24": "well-known port: 개인메일 시스템",
+               "25": "well-known port: SMTP",
+               "37": "well-known port: TIME",
+               "53": "well-known port: DNS",
+               "70": "well-known port: 고퍼 프로토콜",
+               "79": "well-known port: Finger 프로토콜",
+               "80": "well-known port: HTTP",
+               "88": "well-known port: 커베로스 -",
+               "109": "well-known port: POP2",
+               "110": "well-known port: POP3",
+               "111": "well-known port: RPC",
+               "113": "well-known port: ident",
+               "119": "well-known port: NNTP",
+               "139": "well-known port: 넷바이오스",
+               "143": "well-known port: IMAP4",
+               "179": "well-known port: BGP",
+               "194": "well-known port: IRC",
+               "389": "well-known port: LDAP",
+               "443": "well-known port: HTTPS",
+               "445": "well-known port: Microsoft-DS",
+               "465": "well-known port: SSL 위의 SMTP",
+               "515": "well-known port: LPD 프로토콜",
+               "540": "well-known port: UUCP",
+               "542": "well-known port: Commerce Applications",
+               "587": "well-known port: SMTP",
+               "591": "well-known port: 파일메이커",
+               "631": "well-known port: 인터넷 프린팅 프로토콜",
+               "636": "well-known port: SSL 위의 LDAP (암호화된 전송)",
+               "666": "well-known port: id 소프트웨어의 둠 멀티플레이어 게임",
+               "873": "well-known port: rsync 파일 동기화 프로토콜",
+               "981": "well-known port: SofaWare Technologies Checkpoint Firewall-1",
+               "990": "well-known port: SSL 위의 FTP",
+               "992": "well-known port: SSL 위의 Telnet",
+               "993": "well-known port: SSL 위의 IMAP4",
+               "995": "well-known port: SSL 위의 POP3"
+               }
+udpPortDict = {
+    "0": "well-known port: 예약됨",
+    "7": "well-known port: ECHO",
+    "9": "well-known port: DISCARD",
+    "13": "well-known port: DAYTIME ",
+    "19": "well-known port: CHARGEN ",
+    "37": "well-known port: TIME",
+    "49": "well-known port: TACACS",
+    "53": "well-known port: DNS",
+    "67": "well-known port: BOOTP 서버",
+    "68": "well-known port: BOOTP 클라이언트",
+    "69": "well-known port: TFTP",
+    "80": "well-known port: HTTP",
+    "111": "well-known port: RPC",
+    "123": "well-known port: NTP",
+    "161": "well-known port: SNMP",
+    "162": "well-known port: SNMP",
+    "445": "well-known port: Microsoft-DS SMB 파일 공유",
+    "514": "well-known port: syslog 프로토콜",
+    "542": "well-known port: Commerce Applications"
+}
 icmpTypeDict = {"03": "03 / Destination Unreachable",  # 목적지 도달불가
                 "04": "04 / Source Quench",  # 발신억제
                 "05": "05 / Redirect",  # 재지정
@@ -51,7 +115,8 @@ icmpType03Dict = {"00": "00 / Network Unreachable",
                   "10": "10 / Protocol Unreachable",
                   "11": "11 / Port Unreachable"
                   }
-operationDict = {"01": "Request", "10": "Reply"}
+operationDict = {"01": "Request",
+                 "10": "Reply"}
 
 
 def strToIP(String):  # dc 5f e9 ab ==220.95.233.171
@@ -128,8 +193,10 @@ def TCP(String):
     urgentPoint = String[36:40]
     option = String[40:]
     print("TCP:")
-    print(" Source Port: ", sourcePort, " / ", int(sourcePort, 16))
-    print(" Destination Port: ", destiPort, " / ", int(destiPort, 16))
+    print(" Source Port: ", end='')
+    printTcpPort(sourcePort)
+    print(" Destination Port: ", end='')
+    printTcpPort(destiPort)
     print(" Sequence number: ", sequenceN)
     print(" Ack number: ", ackN)
     print(" Header Length: ", headerLength, " / ", int(headerLength, 16) * 4, "bytes : option"
@@ -141,30 +208,16 @@ def TCP(String):
     print(" Option:", option, " / ", len(option) / 2, "bytes")
 
 
-# 001e902ec7eb0019e77a753f080045000034dbf74000f206e2ecdc5fe9abde6a25690050c61215e928e73538db8780121ffe6f360000020405b40103030201010402
-def controlbitFunc(String):
-    Urgent = String[-1]
-    AcK = String[-2]
-    Push = String[-3]
-    Reset = String[-4]
-    Syn = String[-5]
-    Fin = String[-6]
-    print("  -Urgent: ", urgentDict[Urgent])
-    print("  -AcK: ", ackDict[AcK])
-    print("  -Push: ", pushDict[Push])
-    print("  -Reset: ", ResetDict[Reset])
-    print("  -Syn: ", synDict[Syn])
-    print("  -Fin: ", finDict[Fin])
-
-
 def UDP(String):
     sourcePort = String[0:4]
     destiPort = String[4:8]
     totalLength = String[8:12]
     checksum = String[12:16]
     print("UDP:")
-    print(" Source Port: ", sourcePort, " / ", int(sourcePort, 16))
-    print(" Destination Port: ", destiPort, " / ", int(destiPort, 16))
+    print(" Source Port: ", end='')
+    printUdpPort(sourcePort)
+    print(" Destination Port: ", end='')
+    printUdpPort(destiPort)
     print(" Total Length: " + totalLength + " / ", int(totalLength, 16), "bytes")
     print(" Checksum: ", checksum)
 
@@ -234,6 +287,45 @@ def Frame(String):
         ARP(String[28:])
     else:
         print("입력프레임오류")
+
+
+def controlbitFunc(String):
+    Urgent = String[-1]
+    AcK = String[-2]
+    Push = String[-3]
+    Reset = String[-4]
+    Syn = String[-5]
+    Fin = String[-6]
+    print("  -Urgent: ", urgentDict[Urgent])
+    print("  -AcK: ", ackDict[AcK])
+    print("  -Push: ", pushDict[Push])
+    print("  -Reset: ", ResetDict[Reset])
+    print("  -Syn: ", synDict[Syn])
+    print("  -Fin: ", finDict[Fin])
+
+
+def printTcpPort(String):
+    portN = int(String, 16)
+    if str(portN) in tcpPortDict.keys():
+        print(String, " / ", portN, tcpPortDict[str(portN)])
+    elif 1024 <= portN and portN <= 49151:
+        print(String, " / ", portN, "registered port")
+    elif 49152 <= portN and portN <= 65535:
+        print( String, " / ", portN, "dynamic port")
+    else:
+        print(String, " / ", portN, "well-known port")
+
+
+def printUdpPort(String):
+    portN = int(String, 16)
+    if str(portN) in udpPortDict.keys():
+        print(String, " / ", portN, udpPortDict[str(portN)])
+    elif 1024 <= portN and portN <= 49151:
+        print(String, " / ", portN, "registered port")
+    elif 49152 <= portN and portN <= 65535:
+        print(String, " / ", portN, "dynamic port")
+    else:
+        print(String, " / ", portN, "well-known port")
 
 
 if __name__ == '__main__':
