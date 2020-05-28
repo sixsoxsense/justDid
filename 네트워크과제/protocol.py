@@ -51,6 +51,7 @@ icmpType03Dict = {"00": "00 / Network Unreachable",
                   "10": "10 / Protocol Unreachable",
                   "11": "11 / Port Unreachable"
                   }
+operationDict = {"01": "Request", "10": "Reply"}
 
 
 def strToIP(String):  # dc 5f e9 ab ==220.95.233.171
@@ -193,16 +194,29 @@ def ARP(String):
     HWSize = String[8:10]
     protocolSize = String[10:12]
     operation = String[12:16]
-    sendMacAddress = strToMAC(String[16:28])
-    sendIPAddress = strToIP(String[28:36])
-    targetMacAddress = strToMAC(String[36:48])
-    targetIPAddress = strToIP(String[48:56])
+    sourceMacAddress = String[16:28]
+    sourceIPAddress = String[28:36]
+    targetMacAddress = String[36:48]
+    targetIPAddress = String[48:56]
     print("ARP:")
-    print(HWType, protocolType, HWSize, protocolSize, operation, sendMacAddress, sendIPAddress, targetMacAddress,
-          targetIPAddress)
+    print(" H/WType: ", HWType, " / Ethernet")
+    print(" ProtocolType: ", protocolType, " / IP")
+    print(" H/W Length: ", HWSize, " / ", int(HWSize, 16) * 8, "bits")
+    print(" Protocol Length: ", protocolSize, " / ", int(protocolSize, 16) * 8, "bits")
+    print(" Operation: ", operation, " / ", operationDict[operation])
+    if bin(int(sourceMacAddress, 16))[8] == "0":
+        print(" Sender MAC Address: ", strToMAC(sourceMacAddress), " / Unicast")
+    elif sourceMacAddress == "ffffffffffff":
+        print(" Sender MAC Address: ", strToMAC(sourceMacAddress), " / Broadcast")
+    print(" Sender IP Address: ", sourceIPAddress, " / ", strToIP(sourceIPAddress))
+    if operation == "01":
+        print(" Target MAC Address: ", strToMAC(targetMacAddress), " / Unknown MAC")
+    elif operation == "10":
+        print(" Target MAC Address: ", strToMAC(targetMacAddress), " / Request MAC")
+    print(" Target IP Address: ", targetIPAddress, " / ", strToIP(targetIPAddress))
 
 
-def cutFrame(String):
+def Frame(String):
     eType = ETHERNET(String[:28])
     if eType == "0800":  # IP인경우
         print(" Type: " + eType + "/ IP")
@@ -224,4 +238,4 @@ def cutFrame(String):
 
 if __name__ == '__main__':
     String = str(input("프레임을입력하시오\n"))
-    cutFrame(String)
+    Frame(String)
