@@ -208,7 +208,11 @@
       <workItem from="1590077676244" duration="11000" />
       <workItem from="1590366651579" duration="762000" />
       <workItem from="1590566157066" duration="2516000" />
-      <workItem from="1590580432294" duration="8825000" />
+      <workItem from="1590580432294" duration="8843000" />
+      <workItem from="1590589602913" duration="48000" />
+      <workItem from="1590589708215" duration="1194000" />
+      <workItem from="1590651540872" duration="4740000" />
+      <workItem from="1590659803621" duration="7089000" />
     </task>
     <task id="LOCAL-00001" summary="과제1">
       <created>1587301026710</created>
@@ -350,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590589189561</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="20200527">
+      <created>1590589269039</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1590589269039</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,10 +392,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590030426502" />
-    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1590589189101">
+    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1590589268647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589189101" />
+    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589268647" />
     <state x="874" y="100" width="876" height="847" key="DiffContextDialog" timestamp="1587306558560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -405,22 +416,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1151" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590032437510" />
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1590589004587">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom" timestamp="1590675202863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590589004587" />
-    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1590589004587">
+    <state width="1877" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590675202863" />
+    <state width="1877" height="200" key="GridCell.Tab.0.center" timestamp="1590675202863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590589004587" />
-    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1590589004587">
+    <state width="1877" height="200" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590675202863" />
+    <state width="1877" height="200" key="GridCell.Tab.0.left" timestamp="1590675202863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590589004587" />
-    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1590589004587">
+    <state width="1877" height="200" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590675202863" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right" timestamp="1590675202863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590589004587" />
+    <state width="1877" height="200" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590675202863" />
     <state x="629" y="282" key="RollbackChangesDialog" timestamp="1587304048548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -429,10 +440,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="622" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590032859373" />
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590589195981">
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1590589271507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589195981" />
+    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590589271507" />
     <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590031232672">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -457,10 +468,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="309" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587864528163" />
-    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1590584896227">
+    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1590675483575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590584896227" />
+    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590675483575" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1590030030388">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -471,6 +482,6 @@
     <SUITE FILE_PATH="coverage/justDid$DES.coverage" NAME="DES Coverage Results" MODIFIED="1589982468912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/정보보호론과제" />
     <SUITE FILE_PATH="coverage/justDid$search_solution.coverage" NAME="search_solution Coverage Results" MODIFIED="1590385029010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
     <SUITE FILE_PATH="coverage/justDid$ForProgramers.coverage" NAME="ForProgramers Coverage Results" MODIFIED="1587647267696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/그냥놀기" />
-    <SUITE FILE_PATH="coverage/justDid$protocol.coverage" NAME="protocol Coverage Results" MODIFIED="1590589004581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/네트워크과제" />
+    <SUITE FILE_PATH="coverage/justDid$protocol.coverage" NAME="protocol Coverage Results" MODIFIED="1590675202857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/네트워크과제" />
   </component>
 </project>
