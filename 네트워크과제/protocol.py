@@ -115,8 +115,8 @@ icmpType03Dict = {"00": "00 / Network Unreachable",
                   "10": "10 / Protocol Unreachable",
                   "11": "11 / Port Unreachable"
                   }
-operationDict = {"01": "Request",
-                 "10": "Reply"}
+operationDict = {"0001": "Request",
+                 "0010": "Reply"}
 
 
 def strToIP(String):  # dc 5f e9 ab ==220.95.233.171
