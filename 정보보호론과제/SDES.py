@@ -1,4 +1,3 @@
-
 KeyLength = 10
 SubKeyLength = 8
 DataLength = 8

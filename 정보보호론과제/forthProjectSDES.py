@@ -1,4 +1,4 @@
-import SDES
+from . import SDES
 
 if __name__ == '__main__':
     ciphertexts = []
