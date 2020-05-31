@@ -14,7 +14,9 @@ Ciphertext 목록내 하나의 숫자는 하나의 문자를 의미함
 from rsa import key
 import time
 
-plaintext = []
+plaintext1 = []
+plaintext2 = []
+plaintext3 = []
 '''
 p,q=  2027 1201
 d=  2050883
@@ -91,8 +93,8 @@ if __name__ == '__main__':
     print("d= ", privateKeyd1)
 
     start1 = time.time()
-    plaintext = decrypt_local(Ciphertext1, privateKeyd1, publicKeyN1)
-    print(plaintext)
+    plaintext1 = decrypt_local(Ciphertext1, privateKeyd1, publicKeyN1)
+    print(plaintext1)
     print("키 11비트 :", time.time() - start1)
 
     '''
@@ -108,7 +110,8 @@ if __name__ == '__main__':
             break
     print("d= ", privateKeyd2)
     start2 = time.time()
-    decrypt_local(Ciphertext2, privateKeyd2, publicKeyN2)
+    plaintext2=decrypt_local(Ciphertext2, privateKeyd2, publicKeyN2)
+    print(plaintext2)
     print("키 12비트 :", time.time() - start2)
 
     '''
@@ -124,5 +127,6 @@ if __name__ == '__main__':
             break
     print("d= ", privateKeyd3)
     start3 = time.time()
-    decrypt_local(Ciphertext3, privateKeyd3, publicKeyN3)
+    plaintext3=decrypt_local(Ciphertext3, privateKeyd3, publicKeyN3)
+    print(plaintext3)
     print("키 13비트 :", time.time() - start3)

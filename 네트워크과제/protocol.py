@@ -199,8 +199,8 @@ def TCP(String):
     printTcpPort(destiPort)
     print(" Sequence number: ", sequenceN)
     print(" Ack number: ", ackN)
-    print(" Header Length: ", headerLength, " / ", int(headerLength, 16) * 4, "bytes : option"
-          , int(headerLength, 16) * 4 - int(len(option) / 2), "bytes")
+    print(" Header Length: ", headerLength, " / ", int(headerLength, 16) * 4, "bytes : option",
+          int(headerLength, 16) * 4 - int(len(option) / 2), "bytes")
     print(" Control Bits: ", controlBits, " / ", controlbitFunc(format(int(controlBits, 16), "08b")))
     print(" Window Size: ", windowSize, " / ", int(windowSize, 16), "bytes")
     print(" Checksum: ", checksum)
@@ -311,7 +311,7 @@ def printTcpPort(String):
     elif 1024 <= portN and portN <= 49151:
         print(String, " / ", portN, "registered port")
     elif 49152 <= portN and portN <= 65535:
-        print( String, " / ", portN, "dynamic port")
+        print(String, " / ", portN, "dynamic port")
     else:
         print(String, " / ", portN, "well-known port")
 
