@@ -1,6 +1,5 @@
 '''
-항목별 여러타입있는 경우 if문을 사용하지않고 딕셔너리를 이용해 작성하였습니다.
-작년 체크썸과제랑 다르게 단순 출력수준의 문제이기에 기본 문법정도만 사용하였습니다.
+마지막 작성일 2020년 06월 06일
 '''
 String = ""
 serviceTypeDict = {"00": "nomal",
@@ -42,13 +41,13 @@ tcpPortDict = {"1": "well-known port: TCPMUX",
                "20": "well-known port: FTP 데이터포트",
                "21": "well-known port: FTP 제어포트",
                "22": "well-known port: SSH",
-               "23": "well-known port: 텔넷 프로토콜",
+               "23": "well-known port: 텔넷",
                "24": "well-known port: 개인메일 시스템",
                "25": "well-known port: SMTP",
                "37": "well-known port: TIME",
                "53": "well-known port: DNS",
-               "70": "well-known port: 고퍼 프로토콜",
-               "79": "well-known port: Finger 프로토콜",
+               "70": "well-known port: 고퍼",
+               "79": "well-known port: Finger",
                "80": "well-known port: HTTP",
                "88": "well-known port: 커베로스 -",
                "109": "well-known port: POP2",
@@ -64,7 +63,7 @@ tcpPortDict = {"1": "well-known port: TCPMUX",
                "443": "well-known port: HTTPS",
                "445": "well-known port: Microsoft-DS",
                "465": "well-known port: SSL 위의 SMTP",
-               "515": "well-known port: LPD 프로토콜",
+               "515": "well-known port: LPD",
                "540": "well-known port: UUCP",
                "542": "well-known port: Commerce Applications",
                "587": "well-known port: SMTP",
@@ -80,7 +79,7 @@ tcpPortDict = {"1": "well-known port: TCPMUX",
                "995": "well-known port: SSL 위의 POP3"
                }
 udpPortDict = {
-    "0": "well-known port: 예약됨",
+    "0": "well-known port: 예약",
     "7": "well-known port: ECHO",
     "9": "well-known port: DISCARD",
     "13": "well-known port: DAYTIME ",
@@ -94,10 +93,10 @@ udpPortDict = {
     "80": "well-known port: HTTP",
     "111": "well-known port: RPC",
     "123": "well-known port: NTP",
-    "161": "well-known port: SNMP",
-    "162": "well-known port: SNMP",
+    "161": "well-known port: SNMP agent",
+    "162": "well-known port: SNMP manager",
     "445": "well-known port: Microsoft-DS SMB 파일 공유",
-    "514": "well-known port: syslog 프로토콜",
+    "514": "well-known port: syslog",
     "542": "well-known port: Commerce Applications"
 }
 icmpTypeDict = {"03": "03 / Destination Unreachable",  # 목적지 도달불가
@@ -119,7 +118,7 @@ operationDict = {"0001": "Request",
                  "0010": "Reply"}
 
 
-def strToIP(String):  # dc 5f e9 ab ==220.95.233.171
+def strToIP(String):  # dc 5f e9 ab -> 220.95.233.171
     bytes = ["".join(x) for x in zip(*[iter(String)] * 2)]
     bytes = [int(x, 16) for x in bytes]
     IP = ".".join(str(x) for x in bytes)
@@ -132,21 +131,37 @@ def strToMAC(String):
     return MAC
 
 
+def checkCast(String, flag):
+    if flag == "des":
+        print("ETHERNET:")
+        print(" Destination Address: " + strToMAC(String), end="")
+
+    elif flag == "source":
+        print("ETHERNET:")
+        print(" Source Address: " + strToMAC(String), end="")
+
+    if sliceBin(String)[3] == "0":
+        return print(" / unicast")
+    elif String == "ffffffffffff":
+        return print(" / broadcast")
+    elif sliceBin(String)[3] == "1":
+        return print(" / multicast")
+    else:
+        print("프레임오류")
+        exit(-1)
+
+
+def sliceBin(String):
+    slicing = ["".join(x) for x in zip(*[iter(String)] * 1)]
+    return format(int(slicing[1]), '04b')
+
+
 def ETHERNET(String):
     destiAddress = String[0:12]
     sourceAddress = String[12:24]
     ethernetType = String[24:28]
-    if bin(int(destiAddress, 16))[8] == "0":
-        print("ETHERNET:")
-        print(" Destination Address: " + strToMAC(destiAddress) + " / unicast")
-        print(" Source Address: " + strToMAC(sourceAddress) + " / unicast")
-    elif destiAddress == "ffffffffffff":
-        print("ETHERNET:")
-        print(" Destination Address: " + strToMAC(destiAddress) + " / broadcast")
-        print(" Source Address: " + strToMAC(sourceAddress) + " / unicast")
-    else:
-        print("프레임오류")
-        exit(-1)
+    checkCast(destiAddress, "des")
+    checkCast(sourceAddress, "source")
     return ethernetType
 
 
@@ -328,6 +343,10 @@ def printUdpPort(String):
         print(String, " / ", portN, "well-known port")
 
 
-if __name__ == '__main__':
+def main():
     String = str(input("프레임을입력하시오\n"))
     Frame(String)
+
+
+if __name__ == '__main__':
+    main()
