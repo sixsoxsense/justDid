@@ -140,10 +140,10 @@ def checkCast(String, flag):
         print("ETHERNET:")
         print(" Source Address: " + strToMAC(String), end="")
 
-    if sliceBin(String)[3] == "0":
-        return print(" / unicast")
-    elif String == "ffffffffffff":
+    if String == "ffffffffffff":
         return print(" / broadcast")
+    elif sliceBin(String)[3] == "0":
+        return print(" / unicast")
     elif sliceBin(String)[3] == "1":
         return print(" / multicast")
     else:
