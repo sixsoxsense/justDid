@@ -114,6 +114,12 @@ icmpType03Dict = {"00": "00 / Network Unreachable",
                   "10": "10 / Protocol Unreachable",
                   "11": "11 / Port Unreachable"
                   }
+icmpType05Dict = {"00": "00 / Redirect Datagram for the Network",
+                  "01": "01 / Redirect Datagram for the host"
+                  }
+icmpType11Dict = {"00": "00 / Time to Live exceeded in Transit",
+                  "01": "01 / Fragment Reassembly Time Exceeded"
+                  }
 operationDict = {"0001": "Request",
                  "0010": "Reply"}
 
@@ -245,11 +251,20 @@ def ICMP(String):
     sequence = String[12:16]
     data = String[16:]
     print("ICMP:")
-    print(" Type: ", Type)
-    if Type == "03":
-        print(" Code: ", icmpType03Dict[Code])
-    else:
+    print(" Type: ", icmpTypeDict[Type])
+    if Type=="00":
         print(" Code: ", Code)
+    elif Type == "03":
+        print(" Code: ", icmpType03Dict[Code])
+    elif Type=="05":
+        print(" Code: ", icmpType05Dict[Code])
+    elif Type=="08":
+        print(" Code: ", Code)
+    elif Type=="11":
+        print(" Code: ", icmpType11Dict[Code])
+    else:
+        print("오류")
+        exit(-1)
     print(" Checksum: ", checksum)
     print(" Id: ", id)
     print(" Sequence N: ", sequence)
