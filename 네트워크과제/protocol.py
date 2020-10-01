@@ -1,5 +1,5 @@
 '''
-마지막 작성일 2020년 06월 06일
+마지막 작성일 2020년 06월 12일
 '''
 String = ""
 serviceTypeDict = {"00": "nomal",
@@ -10,10 +10,10 @@ protocolDict = {"01": "ICMP",
                 "06": "TCP",
                 "11": "UDP"}
 flagsDict = {
-    "0": " reversed : 0,\n Don’t Fragment? : 0 / fragment,\n More? : 0 / No more fragments",
-    "2": " reversed : 0,\n Don’t Fragment? : 0 / fragment,\n More? : 1 / more fragments",
-    "4": " reversed : 0,\n Don’t Fragment? : 1 / Unable to fragment,\n More? : 0 / No more fragments",
-    "6": " reversed : 0,\n Don’t Fragment? : 1 / Unable to fragment,\n More? : 1 / more fragments"
+    "0": " reversed : 0 \n Don’t Fragment? : 0 / fragment \n More? : 0 / No more fragments",
+    "2": " reversed : 0 \n Don’t Fragment? : 0 / fragment \n More? : 1 / more fragments",
+    "4": " reversed : 0 \n Don’t Fragment? : 1 / Unable to fragment \n More? : 0 / No more fragments",
+    "6": " reversed : 0 \n Don’t Fragment? : 1 / Unable to fragment \n More? : 1 / more fragments"
 }
 urgentDict = {"0": "0 / Not urgent",
               "1": "1 / urgent"}
@@ -121,7 +121,7 @@ icmpType11Dict = {"00": "00 / Time to Live exceeded in Transit",
                   "01": "01 / Fragment Reassembly Time Exceeded"
                   }
 operationDict = {"0001": "Request",
-                 "0010": "Reply"}
+                 "0010": "Reply","0002":"Reply"}
 
 
 def strToIP(String):  # dc 5f e9 ab -> 220.95.233.171
@@ -143,7 +143,6 @@ def checkCast(String, flag):
         print(" Destination Address: " + strToMAC(String), end="")
 
     elif flag == "source":
-        print("ETHERNET:")
         print(" Source Address: " + strToMAC(String), end="")
 
     if String == "ffffffffffff":
@@ -159,7 +158,7 @@ def checkCast(String, flag):
 
 def sliceBin(String):
     slicing = ["".join(x) for x in zip(*[iter(String)] * 1)]
-    return format(int(slicing[1]), '04b')
+    return format(int(slicing[1],16), '04b')
 
 
 def ETHERNET(String):

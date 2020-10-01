@@ -3,7 +3,8 @@ import sys
 iterable = {"QR": "Qatar Airways", "SQ": "Singapor Airlins"
     , "CX": "Cathay Pacific Airways", "EK": "Emirattes", "KE": "Korean Air Lines"
     , "LH": "Lufthanza German Airlines", "OZ": "Aisiana Airlines"
-    , "DL": "Delta Air Lines", "AHC": "Air Hawaii", "QF": "Qantas Airways"}
+    , "DL": "Delta Air Lines", "AHC": "Air Hawaii", "QF": "Qantas Airways",
+            "CAB":"CAB"}
 dict(iterable)
 
 
@@ -470,7 +471,8 @@ if __name__ == '__main__':
     hashcodeTable = []
     for i in iterable.keys():
         for j in i:
-            hashcode = hashcode * 31 + ord(j)
+            hashcode = hashcode * 5 + ord(j)
+            print(hashcode,j)
         hashcodeTable.append([hashcode, i])
         hashcode = 0
     print(hashcodeTable)

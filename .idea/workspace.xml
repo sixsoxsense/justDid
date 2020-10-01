@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="">
+    <list default="true" id="50f55116-93bb-44c8-a960-b297fa2f7be6" name="Default Changelist" comment="진짜 끝임 완전끝 ㅡㅡ">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그냥놀기/number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/그냥놀기/ForProgramers.py" beforeDir="false" afterPath="$PROJECT_DIR$/그냥놀기/ForProgramers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/네트워크과제/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/네트워크과제/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/알고리즘과제/search_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/알고리즘과제/search_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,13 +24,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="bab453c2-a895-4c95-a18b-d3eab878bc85" />
   <component name="ProjectId" id="1alBmarHT0hMjY6Baefv34TJwXq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -41,11 +49,78 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dudwn\IdeaProjects\justDid\알고리즘과제" />
       <recent name="C:\Users\dudwn\IdeaProjects\justDid\네트워크과제" />
       <recent name="C:\Users\dudwn\IdeaProjects\justDid\.idea" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.protocol">
+  <component name="RunManager" selected="Python.number">
+    <configuration name="실기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘과제/실기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RedBlack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘과제" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘과제/RedBlack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="justDid" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그냥놀기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/그냥놀기/number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="protocol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="justDid" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sixthProjectRSA" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="search_solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="justDid" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,12 +151,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/정보보호론과제" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/알고리즘과제" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/정보보호론과제/sixthProjectRSA.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/알고리즘과제/search_solution.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,11 +167,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.number" />
+        <item itemvalue="Python.실기" />
+        <item itemvalue="Python.RedBlack" />
+        <item itemvalue="Python.search_solution" />
         <item itemvalue="Python.protocol" />
-        <item itemvalue="Python.sixthProjectRSA" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\dudwn\AppData\Roaming\Subversion</configuration>
   </component>
@@ -172,7 +251,27 @@
       <workItem from="1590926226189" duration="248000" />
       <workItem from="1591161097056" duration="132000" />
       <workItem from="1591245520372" duration="3000" />
-      <workItem from="1591412356870" duration="3122000" />
+      <workItem from="1591412356870" duration="3318000" />
+      <workItem from="1591503178414" duration="60000" />
+      <workItem from="1591503467279" duration="821000" />
+      <workItem from="1591505104489" duration="17000" />
+      <workItem from="1591505186486" duration="75000" />
+      <workItem from="1591505502662" duration="105000" />
+      <workItem from="1591516208111" duration="2000" />
+      <workItem from="1591679803278" duration="5000" />
+      <workItem from="1591960268084" duration="709000" />
+      <workItem from="1591961058417" duration="13000" />
+      <workItem from="1591961114038" duration="360000" />
+      <workItem from="1591961602379" duration="8000" />
+      <workItem from="1592107376212" duration="8000" />
+      <workItem from="1592366732430" duration="1098000" />
+      <workItem from="1592372169438" duration="605000" />
+      <workItem from="1592803849253" duration="695000" />
+      <workItem from="1592804587276" duration="2591000" />
+      <workItem from="1592885045798" duration="1269000" />
+      <workItem from="1596198754649" duration="725000" />
+      <workItem from="1601271124640" duration="6000" />
+      <workItem from="1601533394103" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="과제1">
       <created>1587301026710</created>
@@ -370,13 +469,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591415349656</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="real end">
+      <created>1591415489521</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591415489521</updated>
+    </task>
+    <task id="LOCAL-00030" summary="진짜 끝임 완전끝 ㅡㅡ">
+      <created>1591960948792</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591960948792</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="과제1" />
     <MESSAGE value="md업로드" />
     <MESSAGE value="202004192228" />
@@ -393,140 +507,51 @@
     <MESSAGE value="real END~" />
     <MESSAGE value="1" />
     <MESSAGE value="end" />
-    <option name="LAST_COMMIT_MESSAGE" value="end" />
+    <MESSAGE value="real end" />
+    <MESSAGE value="진짜 끝임 완전끝 ㅡㅡ" />
+    <option name="LAST_COMMIT_MESSAGE" value="진짜 끝임 완전끝 ㅡㅡ" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1250" y="382" key="#Notifications" timestamp="1590753617124">
+    <state x="809" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601533822719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1250" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1590753617124" />
-    <state x="552" y="161" key="#Plugins" timestamp="1590814736886">
+    <state x="809" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601533822719" />
+    <state x="835" y="75" key="CommitChangelistDialog2" timestamp="1601533764419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="161" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1590814736886" />
-    <state x="220" y="110" width="1114" height="851" key="#Project_Structure" timestamp="1590755006784">
+    <state x="835" y="75" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601533764419" />
+    <state width="1007" height="276" key="GridCell.Tab.0.bottom" timestamp="1596199486999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="220" y="110" width="1114" height="851" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590755006784" />
-    <state x="672" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590821421388">
+    <state width="1007" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596199486999" />
+    <state width="1007" height="276" key="GridCell.Tab.0.center" timestamp="1596199486998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="672" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590821421388" />
-    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590817014017">
+    <state width="1007" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596199486998" />
+    <state width="1007" height="276" key="GridCell.Tab.0.left" timestamp="1596199486998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590817014017" />
-    <state x="722" y="198" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1590757869633">
+    <state width="1007" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596199486998" />
+    <state width="1007" height="276" key="GridCell.Tab.0.right" timestamp="1596199486999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="722" y="198" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590757869633" />
-    <state x="286" y="287" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1590757773658">
+    <state width="1007" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596199486999" />
+    <state x="809" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601533757833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="286" y="287" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590757773658" />
-    <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590030426502">
+    <state x="809" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601533757833" />
+    <state x="1032" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601533745152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1095" y="400" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1590030426502" />
-    <state x="1044" y="78" key="CommitChangelistDialog2" timestamp="1591415349226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1044" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591415349226" />
-    <state x="959" y="400" key="DetectedRootsChooserDialog" timestamp="1590748455187">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="959" y="400" key="DetectedRootsChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590748455187" />
-    <state x="874" y="100" width="876" height="847" key="DiffContextDialog" timestamp="1587306558560">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="874" y="100" width="876" height="847" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587306558560" />
-    <state x="1303" y="232" key="EnvironmentVariablesDialog" timestamp="1590758572229">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1303" y="232" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590758572229" />
-    <state x="745" y="306" width="603" height="485" key="FileChooserDialogImpl" timestamp="1590816057392">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="745" y="306" width="603" height="485" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590816057392" />
-    <state x="1159" y="441" key="Github.CreateGistDialog" timestamp="1590031695299">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1159" y="441" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031695299" />
-    <state x="1216" y="419" key="Github.ShareDialog" timestamp="1590032432344">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1216" y="419" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590032432344" />
-    <state x="1151" y="226" key="Github.UntrackedFilesDialog" timestamp="1590032437510">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1151" y="226" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590032437510" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1591415471547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591415471547" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1591415471547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591415471547" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1591415471547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591415471547" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1591415471547">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591415471547" />
-    <state x="629" y="282" key="RollbackChangesDialog" timestamp="1587304048548">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="282" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587304048548" />
-    <state x="822" y="93" width="1040" height="841" key="SettingsEditor" timestamp="1590821416218">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="822" y="93" width="1040" height="841" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590821416218" />
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2" timestamp="1591415351947">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1019" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1591415351947" />
-    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1590031232672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031232672" />
-    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590031232672">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="850" y="104" width="976" height="836" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590031232672" />
-    <state x="1117" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587481965088">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1117" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587481965088" />
-    <state x="1089" y="255" width="651" height="536" key="find.popup" timestamp="1590755011765">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1089" y="255" width="651" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590755011765" />
-    <state x="1033" y="310" key="git4idea.merge.GitPullDialog" timestamp="1587467673104">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1033" y="310" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587467673104" />
-    <state x="309" y="117" key="new project wizard" timestamp="1590758719569">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="309" y="117" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590758719569" />
-    <state x="224" y="242" key="run.anything.popup" timestamp="1591415317447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="224" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591415317447" />
-    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1591412698702">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="809" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591412698702" />
-    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1590030030388">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1590030030388" />
+    <state x="1032" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601533745152" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/justDid$sixthProjectRSA.coverage" NAME="sixthProjectRSA Coverage Results" MODIFIED="1590906235238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/정보보호론과제" />
-    <SUITE FILE_PATH="coverage/justDid$protocol.coverage" NAME="protocol Coverage Results" MODIFIED="1591415471541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/네트워크과제" />
+    <SUITE FILE_PATH="coverage/justDid$ForProgramers.coverage" NAME="ForProgramers Coverage Results" MODIFIED="1591960590386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/그냥놀기" />
+    <SUITE FILE_PATH="coverage/justDid$number.coverage" NAME="number Coverage Results" MODIFIED="1596199472820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/그냥놀기" />
+    <SUITE FILE_PATH="coverage/justDid$protocol.coverage" NAME="protocol Coverage Results" MODIFIED="1592804636393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/네트워크과제" />
+    <SUITE FILE_PATH="coverage/justDid$search_solution.coverage" NAME="search_solution Coverage Results" MODIFIED="1592806075504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
+    <SUITE FILE_PATH="coverage/justDid$RedBlack.coverage" NAME="RedBlack Coverage Results" MODIFIED="1592807055947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
+    <SUITE FILE_PATH="coverage/justDid$.coverage" NAME="실기 Coverage Results" MODIFIED="1596199081896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/알고리즘과제" />
   </component>
 </project>
